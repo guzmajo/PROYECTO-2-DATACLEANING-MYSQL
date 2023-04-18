@@ -1,0 +1,8 @@
+"id";"tipo";"sku";"nombre";"publicado";"visibilidad_catalogo";"descripcion_corta";"estado_impuesto";"clase_impuesto";"en_inventario";"Inventario";"cantidad_de_bajo_inventario";"vendido_individualmente";"peso_kg";"longitud_cm";"anchura_cm";"altura_cm";"precio_normal";"categorias"
+279;"simple, virtual";1;"Aprende Python desde cero";1;"visible";"";"none";"tasa-cero";1;"Agotado";"";1;"";"";"";"";249;"Python"
+281;"simple, virtual";2;"Mysql: Introduccion a las bases de datos";1;"visible";"";"none";"tasa-cero";1;"Agotado";"";1;"";"";"";"";179;"MYSQL"
+283;"simple, virtual";3;"Power BI: Como crear dashboards inteligentes";1;"visible";"";"none";"tasa-cero";1;"Hay existencias";"";0;"";"";"";"";199;"Power BI"
+280;"simple, virtual";4;"MYSQL: Analisis de datos avanzado";1;"visible";"";"none";"tasa-cero";1;"Hay existencias";"";0;"";"";"";"";199;"MYSQL"
+282;"simple, virtual";5;"MYSQL: Administracion de bases de datos";1;"visible";"";"none";"tasa-cero";1;"Agotado";"";1;"";"";"";"";149;"MYSQL"
+284;"simple, virtual";6;"Conviertete en Analista de datos de cero a 100";1;"visible";"";"none";"tasa-cero";1;"Hay existencias";"";0;"";"";"";"";299;"Varias"
+285;"simple, virtual";7;"Recursos gratis de un analista de datos";1;"visible";"";"none";"tasa-cero";1;"Hay existencias";"";0;"";"";"";"";29;"Varias"
