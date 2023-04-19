@@ -16,8 +16,16 @@ Proyecto de limpieza de datos en mysql
 
 Utiliza las siguientes herramientas para gestionar su negocio:
 
-- **Wocommerce**: Es un plugin de wordpress que te permite convertir tu web a un sitio de ecommerce y vender productos.
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_10.30.14.png)
+
+- **Woocommerce**: Es un plugin de wordpress que te permite convertir tu web a un sitio de ecommerce y vender productos.
+
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_10.30.05.png)
+
 - **Stripe**: Es una plataforma de procesamiento de pagos por internet, al igual que paypal.
+
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_10.29.43.png)
+
 - **Wordpress**: Es un sistema de gestión de contenidos(CMS), un software utilizado para construir, modificar y mantener sitios web. Se trata del CMS más popular del mercado, ya que lo utilizan el 65,2% de los sitios web cuyo CMS conocemos. Esto se traduce en el 42,4% de todos los sitios web, casi la mitad de Internet.
 
 # ❓ El problema
@@ -25,6 +33,13 @@ Utiliza las siguientes herramientas para gestionar su negocio:
 LearnData quiere comenzar a analizar sus principales métricas financieras, pero no tiene ningun sistema creado para poder capturar, analizar y tomar mejores decisiones.
 
 # 💾 Los datos
+
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_9.35.13.png
+)
+
+En el siguiente enlace se encuentran las bases de datos necesarias para la ejecucion del caso de estudio:
+
+https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL
 
 # 💡 La solución
 
@@ -49,6 +64,10 @@ Les creamos una nueva base de datos en MYSQL con todos los datos limpios y listo
 5. Análisis exploratorio de las tablas.
 
 ## Ejecución
+
+En el siguiente enlace se encuentran las bases de datos necesarias para la ejecucion del caso de estudio:
+
+https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/commit/04f07a5fd6f95e4e9057219261183b51bf8cd7dc#diff-b64f39d5a0f98ebf20d48bccc4ddb7c0b392986f36f8411da3ccaf15cfd35648
 
 1. Crear una nueva base de datos en MYSQL llamada “learndata” + tablas:
     1. dim_clientes; dim_producto;fac_pedidos; fac_pagos_stripe
@@ -88,6 +107,11 @@ Les creamos una nueva base de datos en MYSQL con todos los datos limpios y listo
 Una vez finalizado el proceso de creación de una nueva base de datos & limpieza de datos las tablas están listas para ser consumidas por los expertos en visualización de datos. También es necesario determinar con el equipo de ingenieria de datos la realización de los pipelines de datos y automatización de la descarga, limpieza de los mismos.
 
 
+## Agradecimientos
+
+Agradecimientos a **Unicorn Project** por brindarnos las herramientas y bases de datos necesarias para la ejecución de un caso este caso de estudio en MySQL. Este proyecto me ha permitido aprender y aplicar los principios y prácticas de limpieza de datos.
+
+
 # English Version
 
 
@@ -109,8 +133,16 @@ Data cleaning project in MySQL
 
 It uses the following tools to manage its business:
 
-- **Wocommerce**: It is a WordPress plugin that allows you to convert your website into an e-commerce site and sell products.
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_10.30.14.png)
+
+- **Woocommerce**: It is a WordPress plugin that allows you to convert your website into an e-commerce site and sell products.
+
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_10.30.05.png)
+
 - **Stripe**: It is an online payment processing platform, just like PayPal.
+
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_10.29.43.png)
+
 - **WordPress**: It is a content management system (CMS), software used to build, modify and maintain websites. It is the most popular CMS on the market, as it is used by 65.2% of the websites whose CMS we know. This translates into 42.4% of all websites, almost half of the Internet.
 
 # ❓ The problem
@@ -118,6 +150,14 @@ It uses the following tools to manage its business:
 LearnData wants to start analyzing its main financial metrics, but it has no system created to be able to capture, analyze and make better decisions.
 
 # 💾 The data
+
+![Texto alternativo](https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/blob/main/Captura_de_Pantalla_2022-11-22_a_la(s)_9.35.13.png
+)
+
+In the following link you will find the require data base for the execution of this study case
+
+https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL
+
 
 # 💡 The solution
 
@@ -142,6 +182,10 @@ We created a new MYSQL database with all the clean and ready-to-use data from th
 5. Exploratory analysis of tables.
 
 ## Execution
+
+In the following link you will find the SQL script with the required steps for this study case
+
+https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/commit/04f07a5fd6f95e4e9057219261183b51bf8cd7dc#diff-b64f39d5a0f98ebf20d48bccc4ddb7c0b392986f36f8411da3ccaf15cfd35648
 
 1. Create a new database in MYSQL called "learndata" + tables:
     1. dim_customers; dim_product; fac_orders; fac_payments_stripe
@@ -180,5 +224,4 @@ We created a new MYSQL database with all the clean and ready-to-use data from th
 
 Once the process of creating a new database & data cleaning is finished, the tables are ready to be consumed by the data visualization experts. It is also necessary to determine with the data engineering team the realization of the data pipelines and automation of the download, and cleaning of them.
 
-
-
+Thanks to **Unicorn Project** for providing us with the tools and databases necessary for the execution of this case study in MySQL. This project has allowed me to learn and apply the principles and practices of data cleaning.
