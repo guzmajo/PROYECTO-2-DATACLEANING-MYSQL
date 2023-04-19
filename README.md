@@ -86,3 +86,99 @@ Les creamos una nueva base de datos en MYSQL con todos los datos limpios y listo
 ## 🎉 Conclusiones - ¿Como seguimos?
 
 Una vez finalizado el proceso de creación de una nueva base de datos & limpieza de datos las tablas están listas para ser consumidas por los expertos en visualización de datos. También es necesario determinar con el equipo de ingenieria de datos la realización de los pipelines de datos y automatización de la descarga, limpieza de los mismos.
+
+
+# English Version
+
+
+# PROJECT-2-DATA-CLEANING-MYSQL
+Data cleaning project in MySQL
+
+# 📖 Project glossary
+
+- JSON: The JSON (JavaScript Object Notation) format is an open format used as an alternative to XML for transferring structured data between a Web server and a Web application. Its logic of organization has points of similarity with XML, but it has a different notation.
+
+- Raw: They are raw data, which are downloaded from their source of origin and have not been processed, cleaned, or transformed.
+
+# 📊 The client
+
+[LearnData] is an e-learning company dedicated to selling online courses on data analysis. Its main objective is:
+
+- Start building a technological infrastructure to analyze your data.
+- Clean the data so that the business areas can consume it.
+
+It uses the following tools to manage its business:
+
+- **Wocommerce**: It is a WordPress plugin that allows you to convert your website into an e-commerce site and sell products.
+- **Stripe**: It is an online payment processing platform, just like PayPal.
+- **WordPress**: It is a content management system (CMS), software used to build, modify and maintain websites. It is the most popular CMS on the market, as it is used by 65.2% of the websites whose CMS we know. This translates into 42.4% of all websites, almost half of the Internet.
+
+# ❓ The problem
+
+LearnData wants to start analyzing its main financial metrics, but it has no system created to be able to capture, analyze and make better decisions.
+
+# 💾 The data
+
+# 💡 The solution
+
+We created a new MYSQL database with all the clean and ready-to-use data from their historical data that they downloaded in a CSV. Then in the second phase of the project, it would be necessary to create the necessary pipelines to generate the data download automatically by reusing the SQL scripts to clean them.
+
+# 📝 The process
+
+## Previous analysis of the problem
+
+1. What data sources does the company have?
+    1. The company uses WordPress with a wocommerce plugin as a platform for selling its online courses and then has Stripe as a payment gateway in addition to credit card payments.
+
+2. In what format are the data downloaded?
+    1. The raw data will be in CSV directly downloaded from the sources.
+
+3. What data do we have?
+    1. We have data on the products or courses that are sold, the customers, the orders, and the payments received by Stripe.
+
+4. Data model
+    1. We have the order table that is related to the customer and product tables by SKU_product and id_customer and on the other hand we have the stripe payment table that we will relate to the order table by the order number.
+
+5. Exploratory analysis of tables.
+
+## Execution
+
+1. Create a new database in MYSQL called "learndata" + tables:
+    1. dim_customers; dim_product; fac_orders; fac_payments_stripe
+
+2. Create the product table from the raw data.
+    1. Check how the data comes
+    2. Change the field names
+    3. Insert the fields into the new table
+
+3. Create the customer table from the raw data
+    1. Check how the data comes
+    2. Change the field names
+    3. Convert the date_created field that comes as timestamp to just a date
+    4. Extract from the billing field, all the customer descriptors that we need by learning to parse a JSON.
+    5. Insert the fields into the new table
+
+4. Create the order table from the raw data
+    1. Check how the data comes
+    2. Change the field names
+    3. Replace the product name with the id.
+    4. Normalize the payment method column.
+    5. Convert to date the order_date column
+    6. Round decimals of the item_cost column to integers
+    7. Insert orders into a table
+    
+5. Create the stripe payment table from the raw data
+    1. Check how the data comes
+    2. Change the field names
+    3. Get the order number with the RIGHT function. Remove the order number from the description which is what will allow us to join this table with others
+    4. Convert to timestamp the "created" field
+    5. Replace commas with dots
+    6. Convert the number to decimal with two places after the comma.
+    7. Insert the table into new
+
+## 🎉 Conclusions - How do we continue?
+
+Once the process of creating a new database & data cleaning is finished, the tables are ready to be consumed by the data visualization experts. It is also necessary to determine with the data engineering team the realization of the data pipelines and automation of the download, and cleaning of them.
+
+
+
