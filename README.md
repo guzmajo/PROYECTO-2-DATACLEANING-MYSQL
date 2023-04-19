@@ -1,7 +1,32 @@
 # PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL
 Proyecto de limpieza de datos en mysql
 
-# 📖 Glosario del proyecto
+- [Glosario del proyecto](#glosario-del-proyecto)
+- [El cliente](#el-cliente)
+- [El problema](#el-problema)
+- [Los datos](#los-datos)
+- [La solución](#la-solución)
+- [El proceso](#el-proceso)
+- [Análisis previo del problema]
+- [Ejecución]
+- [Conclusiones - ¿Como seguimos?](#conclusiones---¿como-seguimos?)
+- [Agradecimientos](#agradecimientos)
+
+----------------------------------------------------------
+
+
+- [English Version](#english-version)
+- [Project glossary](#project-glossary)
+- [The client](#the-client-1)
+- [The problem](#the-problem-1)
+- [The data](#the-data-1)
+- [The solution](#the-solution-1)
+- [The process](#the-process-1)
+- [Previous analysis of the problem]
+- [Execution]
+- [Conclusions - How do we continue?](#conclusions---how-do-we-continue?)
+
+# Glosario del proyecto 📖 
 
 - JSON: El formato JSON (JavaScript Object Notation) es un formato abierto utilizado como alternativa al XML para la transferencia de datos estructurados entre un servidor de Web y una aplicación Web. Su lógica de organización tiene puntos de semejanza con el XML, pero posee una notación diferente.
 
