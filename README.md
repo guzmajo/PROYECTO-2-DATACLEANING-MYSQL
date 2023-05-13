@@ -235,7 +235,7 @@ https://github.com/guzmajo/PROYECTO-2-LIMPIEZA-DE-DATOS-MYSQL/commit/04f07a5fd6f
     4. Normalize the payment method column.
     5. Convert to date the order_date column
     6. Round decimals of the item_cost column to integers
-    7. Insert orders into a table
+    7. Insert orders into a table.
     
 5. Create the stripe payment table from the raw data
     1. Check how the data comes
